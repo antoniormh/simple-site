@@ -12,7 +12,7 @@
 .left{
     float: left;
     display: inline-block;
-}
+    }
 .right{
     float: right;
     display: inline-block;
@@ -124,11 +124,36 @@ a:active{
 
 
 /*Main content*/
+#hero-pic{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    border:red solid;
+}
+section#left-side{
+    float: left;
+    width: 48%;
+    border: red solid;
+}
+section#right-side{
+    float: right;
+    width: 48%;
+    border: red solid;
+}
+
+#first-half-body{
+    width: 100%;
+    margin: 0 auto;
+}
+#second-half-body{
+    width: 100%;
+    margin: 0 auto;
+}
 #conten-wrapper{
     position: relative;
 }
 #main-content-wrapper{
-    width: 75%;
+    width: 100%;
 }
 .main-content-sec{
     margin: 15px 0 15px 0;
