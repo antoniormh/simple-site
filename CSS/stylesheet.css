@@ -178,8 +178,23 @@ a:active{
 
 #hero-pic{
     width: 100%;
-    height: 300px;
-    background-color: blue;
+    height: 200px;
+    background-color: #ECF0F1;
+}
+#hero-pic-otherpages{
+    width: 100%;
+    height: 150px;
+    background-color: #ECF0F1;
+}
+#hero-pic, #hero-pic-otherpages h3{
+    color: #f14500;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 120%;
+    letter-spacing:4px;
+    font-family: 'Open Sans',Arial;
+    padding-top: 10px;
 }
 section#left-side{
     float: left;
@@ -262,6 +277,7 @@ section.main-content-sec li{
 #footer{
     background-color: #FCDACC;
     height: 50px;
+    margin: 0 0;
 }
 #footer .wrapper{
     /*text-align: center;*/
