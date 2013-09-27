@@ -54,32 +54,38 @@ body{
 h1{
     font-size: 3em;
     color: #aaa;
-    font-weight: bold;
+    font-weight: 300;
+    line-height: 120%;
 }
 h2{
     font-size: 2.5em;
     color: #aaa;
-    font-weight: bold;
+    font-weight: 300;
+    line-height: 120%;
 }
 h3{
     font-size: 2em;
     color: #aaa;
-    font-weight: bold;
+    font-weight: 300;
+    line-height: 120%;
 }
 h4{
     font-size: 1.75em;
     color: #aaa;
-    font-weight: bold;
+    font-weight: 300;
+    line-height: 120%;
 }
 h5{
     font-size: 1.5em;
     color: #aaa;
-    font-weight: bold;
+    font-weight: 300;
+    line-height: 120%;
 }
 h6{
     font-size: 1.25em;
     color: #aaa;
-    font-weight: bold;
+    font-weight: 300;
+    line-height: 120%;
 }
 /*links*/
 a{
@@ -186,28 +192,8 @@ a:active{
     height: 150px;
     background-color: #ECF0F1;
 }
-#hero-pic, #hero-pic-otherpages h3{
-    color: #f14500;
-    text-align: center;
-    font-size: 50px;
-    font-weight: 100;
-    line-height: 120%;
-    letter-spacing:4px;
-    font-family: 'Open Sans',Arial;
-    padding-top: 10px;
-}
 #hero-text{
     text-align: center;
-}
-#hero-text h3{
-    font-weight: 200;
-    font-size: 1.5em;
-}
-#hero-text h5{
-    font-weight: 200;
-    font-size: 1.15em;
-}
-#hero-text h3,#hero-text h5{
     line-height: 120%;
 }
 section#left-side{
@@ -326,45 +312,14 @@ section.main-content-sec li{
  
 }
 @media screen and (max-width: 900px){
-.wrapper {
+    .wrapper {
     width: 800px;
     }
-.one{
+    .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven,.twelve{
     width: 100%;
-}   
-.two{
-    width: 100%;
-}
-.three{
-    width: 100%;
-
-}
-.four{
-    width: 100%;
-    
-}
-.five{
-    width: 100%;
-
-}
-.six{
-    width: 100%;
-    
-}
-.seven{
-    width: 100%;
-}
-.eight{
-    width: 100%;
-}
-.nine{
-    width: 100%;
-}
-.ten{
-    width: 100%;
-}
+    }   
     .column{
-        width: 100%;
+    width: 100%;
     }
 }
 /*medium tablet landscape*/
@@ -478,33 +433,21 @@ section.main-content-sec li{
 @media screen and (max-width: 480px){
     h1{
         font-size: 2.75em;
-        color: #aaa;
-        font-weight: bold;
     }
     h2{
         font-size: 2.25em;
-        color: #aaa;
-        font-weight: bold;
     }
     h3{
         font-size: 1.75em;
-        color: #aaa;
-        font-weight: bold;
     }
     h4{
         font-size: 1.5em;
-        color: #aaa;
-        font-weight: bold;
     }
     h5{
         font-size: 1.25em;
-        color: #aaa;
-        font-weight: bold;
     }
     h6{
         font-size: 1.15em;
-        color: #aaa;
-        font-weight: bold;
     }
 
 }
