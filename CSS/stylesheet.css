@@ -126,21 +126,21 @@ a:active{
     width: 100%;
 }
 .one{
-    width: 08333333333333%;
+    width: 8.333333333333%;
 }   
 .two{
-    width: 16666666666667%;
+    width: 16.666666666667%;
 }
 .three{
     width: 25%;
 
 }
 .four{
-    width: 33333333333333%;
+    width: 33.333333333333%;
     
 }
 .five{
-    width: 41666666666667%;
+    width: 41.666666666667%;
 
 }
 .six{
@@ -148,27 +148,27 @@ a:active{
     
 }
 .seven{
-    width: 58333333333333%;
+    width: 58.333333333333%;
 }
 .eight{
-    width: 66666666666667%;
+    width: 66.666666666667%;
 }
 .nine{
     width: 75%;
 }
 .ten{
-    width: 83333333333333%;
+    width: 83.333333333333%;
 }
 .eleven{
-    width: 91666666666667%;
+    width: 91.666666666667%;
 }
 .twelve{
-    width: 1%;
+    width: 100%;
 }
 /*Main content*/
 .column{
     display: inline-block;
-    width: 49%;
+    
 } 
 
 
@@ -291,9 +291,40 @@ section.main-content-sec li{
 .wrapper {
     width: 800px;
     }
-    .six{
-        width: 100%;
-    }
+.one{
+    width: 100%;
+}   
+.two{
+    width: 100%;
+}
+.three{
+    width: 100%;
+
+}
+.four{
+    width: 100%;
+    
+}
+.five{
+    width: 100%;
+
+}
+.six{
+    width: 100%;
+    
+}
+.seven{
+    width: 100%;
+}
+.eight{
+    width: 100%;
+}
+.nine{
+    width: 100%;
+}
+.ten{
+    width: 100%;
+}
     .column{
         width: 100%;
     }
