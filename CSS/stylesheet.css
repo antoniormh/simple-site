@@ -199,6 +199,9 @@ section#right-side{
 #conten-wrapper{
     position: relative;
 }
+#conten-wrapper p{
+    line-height:140%
+}
 #main-content-wrapper{
     width: 100%;
 }
