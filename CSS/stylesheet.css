@@ -121,9 +121,57 @@ a:active{
 #main-nav li{
     margin: 5px;
 }
+/*skeleton*/
+.row{
+    width: 100%;
+}
+.one{
+    width: 08333333333333%;
+}   
+.two{
+    width: 16666666666667%;
 
+}
+.three{
+    width: 25%;
 
+}
+.four{
+    width: 33333333333333%;
+    
+}
+.five{
+    width: 41666666666667%;
+
+}
+.six{
+    width: 50%;
+    
+}
+.seven{
+    width: 58333333333333%;
+}
+.eight{
+    width: 66666666666667%;
+}
+.nine{
+    width: 75%;
+}
+.ten{
+    width: 83333333333333%;
+}
+.eleven{
+    width: 91666666666667%;
+}
+.twelve{
+    width: 1%;
+}
 /*Main content*/
+.column{
+    display: inline-block;
+} 
+
+
 #hero-pic{
     width: 100%;
     height: 200px;
@@ -243,6 +291,12 @@ section.main-content-sec li{
 @media screen and (max-width: 900px){
 .wrapper {
     width: 800px;
+    }
+    .six{
+        width: 100%;
+    }
+    .column{
+        width: 100%;
     }
 }
 /*medium tablet landscape*/
